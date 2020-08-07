@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Cake webpage</title>
+    <!-- Add a link to your css file here -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Add your markup here -->
+    <header class="headercontainer"> 
+       <div class="navbar">
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle"/>
+            <div class="menu">
+               <a href="#">The CakeHouse</a>
+               <a href="#">What We Make</a>
+               <a href="#">CakeBook</a>
+               <a href="#">Best Sellers</a>
+               <a href="#" class="active">Contact</a>
+            </div>
+     </div>
+      <div class="header">
+        <h1>THE Cake House </h1>
+        <button class="button"> 
+            BUY NOW</button>
+      </div> 
+    </div>  
+   </header>
+   <main>
+    <div class="maincontainer">
+        <h2 class="articletext">  The Best cakes in Barcelona, made for you!<br> Visit <span> THE Cake House</span>.
+        </h2>
+      <div class="mainarticles">
+        <div class="article">
+          <img src="/1-website/images/Cakes/cake-with-blackberries.jpg" class="card-img-top" alt="Blackberries">
+          <div class="card-body">
+            <h5 class="card-title">Cake with Blackberries</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel volutpat nulla, a feugiat lectus. Sed odio quam, sodales vitae iaculis ut, lacinia in diam. Curabitur id efficitur risus. Duis dapibus nibh nec erat congue vestibulum. Nullam ac orci in risus consequat tristique. Praesent imperdiet iaculis elit, id dignissim nulla aliquet et. </p>
+            <button> Learn More</button>
+          </div>
+        </div>
+        <div class="article">
+          <img src="/1-website/images/Cakes/cake-with-macarons.jpg" class="card-img-top" alt="Macarons">
+          <div class="card-body">
+            <h5 class="card-title">Macarons</h5>
+            <p class="card-text">Proin mauris metus, placerat nec neque nec, consequat pretium massa. In tristique auctor egestas. Vestibulum magna augue, hendrerit quis neque sit amet, condimentum semper neque. Donec iaculis et ante a hendrerit. Maecenas nec dui et dolor tincidunt malesuada sit amet non lorem. Aenean vitae enim mollis, posuere mi.</p>
+            <button> Learn More</button>
+          </div>
+        </div>
+        <div class="article">
+          <img src="/1-website/images/Cakes/wedding-cake.jpg" class="card-img-top" alt="Wedding cake">
+          <div class="card-body">
+            <h5 class="card-title">Wedding Cake</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id enim eu elit tincidunt varius. Morbi fermentum hendrerit ullamcorper. Nulla vehicula odio ut pharetra aliquet. Aliquam ac tincidunt arcu. Nunc maximus lectus in risus bibendum, vel venenatis leo egestas. Etiam consectetur nisl et pulvinar egestas. </p>
+            <button> Learn More</button>
+          </div>
+        </div>
+      </div>  
+    </div>
+   </main>
+   <footer>
+       <div class="footercontainer">
+          <h3> Give Us a Review </h3>
+          <div class="containerdates">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname">
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+              <input type="submit" value="Submit">
+             
+            </form>
+          </div>
+          <div class="links">
+            <span class="badge badge-pill badge-light"><a href="#"><img src="https://upload.wikimedia.org/wikipedia/sco/9/9f/Twitter_bird_logo_2012.svg" alt="Twitter"></a></span>
+            <span class="badge badge-pill badge-light"><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/F_icon_reversed.svg" alt="Facebook"></a></span>
+            <span class="badge badge-pill badge-light"><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Instagram_simple_icon.svg" alt="Instagram"></a></span>
+
+          </div>
+       </div>
+   </footer>
+
+
+
+
+
+
+    <!-- Bootstrap links -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

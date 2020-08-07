@@ -1,0 +1,209 @@
+/*  Add your styling here */
+body{
+    font-family: Raleway;
+    font-weight: 400;
+}
+/* Header */
+.headercontainer{
+    background-image: url(/1-website/images/Cakes/cupcakes.jpg);
+    background-position: center ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 46rem;
+    min-width: 340px;
+    
+}
+.header{
+    margin-top: 180px;
+    display: flex;
+    flex-direction:column ;
+    justify-content:center;
+    align-items: center;
+    padding:20px;
+    color: lightsalmon;
+    }
+ h1{
+     font-weight: 700;
+    font-size:2em;
+ }   
+.button{
+    border:3px solid lightsalmon;
+    border-radius: 15px;
+    color: lightsalmon;
+    background-color:transparent;
+    width:8rem;
+    padding:15px;
+    margin:30px;
+    font-weight: 700;
+    
+}
+
+/* NavBar */ 
+.navbar{
+    display:flex;
+    text-align: right;
+    position: fixed;
+    font-size: 16px;
+}
+.menu{
+   display:flex;
+}
+.menu a{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 60px;
+    margin-right: 10px;
+}
+.menu a:hover{
+    background-color: lightsalmon;
+    color:black;
+    text-decoration: none;
+    border-radius: 20px;
+}
+a.active{
+    color:lightsalmon;
+}
+label{
+    color:white;
+    font-size:25px;
+    margin-right: 40px;
+    line-height: 70px;
+    display: none;
+}
+#toggle{
+    display: none;
+}
+
+
+/* Main */
+.articletext{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.mainarticles{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:25px;
+    margin-bottom: 90px;
+    
+}
+    
+.articletext span{
+    color:lightsalmon;
+}
+
+.article{
+    padding:20px;
+    font-weight: 100;}
+.card-img-top{
+    width: 200px;
+}
+.card-title{
+    text-align: center;
+    font-weight: 100;
+}
+
+.card-body button{
+    background-color: transparent;
+    border-radius: 30px;
+    width:7rem;
+    
+    
+}
+/* Footer */
+.footercontainer{
+    background-color:#c4c2c280;
+    display:flex;
+    color:#000000ad;
+    flex-direction: column;
+    font-size: 15px;
+    padding:30px;
+
+}
+input[type=submit] {
+    background-color: #000000ad;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  label[for=fname], [for="lname"], [for="subject"]{
+      font-size: 16px;
+      line-height:1;
+      color:gray;
+      
+  }
+  input[type=text]{
+    width:20rem;
+    display:block;
+
+  }
+  textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+  }
+  .links{
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      padding: 20px;
+      margin:25px;
+  }
+  .badge{
+    margin:3px;
+  }
+  .links img{
+      width:17px;
+      margin:5px;
+  }
+/*  Media */
+
+@media only screen and (max-width:600px){
+    label{
+        display: block;
+        cursor: pointer;
+        width:26px;
+        
+    }
+    .menu{
+        text-align: center;
+        width:100%;
+        display:none;
+
+    }
+    .menu a{
+        display:block;
+        margin:0;
+
+    }
+    .menu a:hover{
+        background-color: bisque;
+        color:black;
+    }
+    #toggle:checked + .menu{
+        display: block;
+        border-radius: 2px;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        background-color: rgb(243, 210, 215);
+    
+    }
+    .mainarticles{
+        display:flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width:650px){
+    .article{
+        width:25%;
+    } 
+}
