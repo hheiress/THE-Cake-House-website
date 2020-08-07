@@ -5,7 +5,7 @@ body{
 }
 /* Header */
 .headercontainer{
-    background-image: url(/1-website/images/Cakes/cupcakes.jpg);
+    background-image: url(../images/Cakes/cupcakes.jpg);
     background-position: center ;
     background-size:cover ;
     background-repeat: no-repeat;
@@ -24,18 +24,21 @@ body{
     }
  h1{
      font-weight: 700;
-    font-size:2em;
+     font-size: 3em;
  }   
 .button{
     border:3px solid lightsalmon;
-    border-radius: 15px;
-    color: lightsalmon;
+    border-radius: 70px;
+    color:lightsalmon;
     background-color:transparent;
     width:8rem;
     padding:15px;
     margin:30px;
     font-weight: 700;
     
+}
+.button:hover{
+    background-color: bisque;
 }
 
 /* NavBar */ 
@@ -109,9 +112,12 @@ label{
 .card-body button{
     background-color: transparent;
     border-radius: 30px;
-    width:7rem;
+    width:7rem;  
     
-    
+}
+.card-body button:hover{
+    background-color:#000000ad ;
+    color:white;
 }
 /* Footer */
 .footercontainer{
